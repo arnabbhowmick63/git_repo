@@ -1,1 +1,27 @@
-My first file.
+My first file Modified.
+-------------------
+git config --global user.name "arnabb"
+git config --global user.email "arnabbhowmick63@gmail.com"
+----------------------------
+
+checking 
+-------------------
+git config user.name
+git config user.email
+
+git init (set up a git repositary)
+
+git status (Checking status)
+
+git clone (http:// link) from git hub
+
+git add file_name.extension
+git add . (to add all the files to the staging area)
+
+git commit -m "Message"
+
+git push
+git pull
+git status
+git log	
+git diff
