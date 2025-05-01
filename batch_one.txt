@@ -1,0 +1,70 @@
+Batch one
+===========
+
+PAT : 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
+
+settting 
+-------------------
+git config --global user.name "arnabb"
+git config --global user.email "arnabbhowmick63@gmail.com"
+----------------------------
+
+checking 
+-------------------
+git config user.name
+git config user.email
+
+git init (set up a git repositary)
+
+git status (Checking status)
+
+git clone (http:// link) from git hub
+
+git add file_name.extension
+git add . (to add all the files to the staging area)
+
+git commit -m "Message"
+
+git log (will show a list of all commits made to a repository including the hash, message and metadata)
+
+git push
+git pull
+git status
+git log	
+git diff
+
+
+Without PAT(Personal Access Token)
+---------------
+
+git remote -v
+git remote add origin https://github.com/arnabbhowmick63/git_repo.git
+git push -u origin master
+
+With PAT
+------------
+git remote -v
+git remote add origin https://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@github.com/arnabbhowmick63/git_repo.git
+git push -u origin master
+
+git remote remove origin
+
+---------------------------------
+
+create a new repository on the command line
+echo "# git_repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/arnabbhowmick63/git_repo.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/arnabbhowmick63/git_repo.git
+git branch -M main
+git push -u origin main
+
+
+
+
